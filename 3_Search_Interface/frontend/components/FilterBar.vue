@@ -129,7 +129,7 @@
         <RangeSlider
           v-model="rangeFilters.calories"
           :min="0"
-          :max="1500"
+          :max="2000"
           :step="50"
           label="Calories"
           unit="cal"
@@ -318,13 +318,13 @@ const resetFilters = () => {
     company: 'All',
     salt: 10,
     fat: 100,
-    calories: 1500
+    calories: 2000
   }
   
   // Simultaneously reset rangeFilters
   rangeFilters.salt = { min: 0, max: 10 }
   rangeFilters.fat = { min: 0, max: 100 }
-  rangeFilters.calories = { min: 0, max: 1500 }
+  rangeFilters.calories = { min: 0, max: 2000 }
   
   emit('update:filters', newFilters)
   emit('update:range-filters', rangeFilters)
