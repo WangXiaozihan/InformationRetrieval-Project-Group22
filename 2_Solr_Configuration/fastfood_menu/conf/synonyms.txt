@@ -1,0 +1,15 @@
+# Fast Food Domain Synonyms - FINAL Solr-Compatible Mapping (V3.0)
+# NOTE: WordNet semantic expansion has been removed to prevent noise.
+# This file only contains manually defined domain synonyms (e.g., burger <-> hamburger).
+
+american cheese, cheddar cheese, cheese, cheesy, gouda cheese, milk protein => american cheese, cheddar cheese, cheese, cheesy, gouda cheese, milk protein
+baconator, beefburger, burger, cheeseburger, hamburger, mac, stack => baconator, beefburger, burger, cheeseburger, hamburger, mac, stack
+bap, butty, flatbread, tortilla, twister, wrap => bap, butty, flatbread, tortilla, twister, wrap
+beef, beef patty, pure beef, quarter pounder => beef, beef patty, pure beef, quarter pounder
+brownie, cookie, dessert, frosty, mcflurry, muffin, pie, sundae => brownie, cookie, dessert, frosty, mcflurry, muffin, pie, sundae
+chicken, fowl, mini fillet, nugget, popcorn chicken, poultry, select, tender => chicken, fowl, mini fillet, nugget, popcorn chicken, poultry, select, tender
+chips, french fries, fries, hash browns, potato sides => chips, french fries, fries, hash browns, potato sides
+heinz ketchup, ketchup, tomato ketchup => heinz ketchup, ketchup, tomato ketchup
+kentucky fried chicken, kfc => kentucky fried chicken, kfc
+mcd, mcdonalds, mcdonalds => mcd, mcdonalds, mcdonalds
+wendys, wendys => wendys, wendys
